@@ -1,2 +1,4 @@
 # PhishCheck
-This code creates a webdriver instance using the Firefox browser, navigates to a URL, and sets up an event listener that will trigger the on_url_change function whenever the page finishes loading.
+This code creates a webdriver instance using the Firefox browser, navigates to a URL, and sets up an event listener that will trigger the on_url_change function whenever the page finishes loading. The on_url_change function retrieves the current URL from the browser and checks it against a blacklist of known malicious sites. If the website is on the blacklist, it displays an alert to the user.
+
+I hope this gives you a general idea of how to create a browser extension in Python using Selenium. Keep in mind that this is just a basic example, and you can add more advanced functionality as needed. For example, you could use web scraping techniques to extract information from the website and analyze it for signs of phishing, or you could provide users with additional tools to help them stay safe online. Let me know if you have any questions or need further guidance.
